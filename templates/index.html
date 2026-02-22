@@ -1,1 +1,224 @@
-index
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FBSave - Download Video Facebook Gratis</title>
+    <meta name="description" content="Download video Facebook gratis tanpa aplikasi. Simpan video FB kualitas HD dan SD langsung ke HP atau PC. Cepat, mudah, tanpa login!">
+    <meta name="keywords" content="download video facebook, fbsave, unduh video fb, facebook video downloader, simpan video facebook, download fb gratis">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://FBSAVE-URL.vercel.app">
+    <meta property="og:title" content="FBSave - Download Video Facebook Gratis">
+    <meta property="og:description" content="Download video Facebook gratis kualitas HD & SD. Tanpa login, tanpa aplikasi!">
+    <meta property="og:type" content="website">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; background: #f0f2f5; }
+        .hero-section { background: linear-gradient(135deg, #1877f2 0%, #0d5db5 100%); padding: 60px 20px; text-align: center; color: white; }
+        .input-box { max-width: 700px; margin: -40px auto 0; background: white; padding: 10px; border-radius: 50px; box-shadow: 0 15px 30px rgba(0,0,0,0.1); display: flex; align-items: center; }
+        .input-box input { flex: 1; border: none; outline: none; padding: 15px 25px; border-radius: 50px; font-size: 16px; color: #333; }
+        .btn-download { background: #1877f2; color: white; font-weight: 700; padding: 15px 40px; border-radius: 50px; transition: 0.3s; border: none; cursor: pointer; }
+        .btn-download:hover { background: #0d5db5; transform: scale(1.02); }
+        #ad-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.9); z-index: 999; align-items: center; justify-content: center; padding: 20px; }
+        .ad-content { background: white; width: 100%; max-width: 350px; border-radius: 24px; padding: 20px; text-align: center; }
+    </style>
+    <script src="https://pl28767228.effectivegatecpm.com/e8/37/9b/e8379ba18a27a4d7dd8dd4fcb76b4e28.js"></script>
+    <script src="https://pl28767221.effectivegatecpm.com/17/17/73/171773e792fe01430a8ce9e931bc46d9.js"></script>
+</head>
+<body>
+
+    <div id="ad-overlay">
+        <div class="ad-content">
+            <p class="text-[10px] text-gray-400 mb-3 uppercase tracking-widest font-bold">Iklan Sponsor</p>
+            <div class="min-h-[250px] bg-gray-50 rounded-xl flex items-center justify-center text-gray-400 text-sm">Area Iklan</div>
+            <button id="close-ad" disabled class="w-full mt-4 bg-gray-200 text-gray-500 font-bold py-3 rounded-2xl transition">Tutup (5s)</button>
+        </div>
+    </div>
+
+    <nav class="py-4 px-6 bg-white border-b flex justify-between items-center sticky top-0 z-40 shadow-sm">
+        <div class="text-2xl font-black text-blue-600">FBSave</div>
+        <span class="text-xs font-bold text-gray-400 uppercase tracking-widest hidden sm:inline">Facebook Downloader</span>
+        <div class="relative">
+            <button onclick="toggleMenu()" class="p-2 rounded-lg hover:bg-gray-100 transition">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+            <div id="dropdown-menu" class="hidden absolute right-0 mt-2 w-52 bg-white rounded-2xl shadow-xl border border-gray-100 z-50 overflow-hidden">
+                <div class="px-4 py-2 text-[10px] text-gray-400 uppercase tracking-widest font-bold border-b">Tools Kami</div>
+                <a href="https://YTSAVE-URL.vercel.app" class="flex items-center gap-3 px-4 py-3 hover:bg-red-50 font-bold text-sm text-red-600 transition"><i class="fa-brands fa-youtube"></i> YTSave</a>
+                <a href="https://SNAPSAVE-URL.vercel.app" class="flex items-center gap-3 px-4 py-3 hover:bg-indigo-50 font-bold text-sm text-indigo-600 transition"><i class="fa-brands fa-tiktok"></i> SnapSave</a>
+                <a href="https://INSTASAVE-URL.vercel.app" class="flex items-center gap-3 px-4 py-3 hover:bg-pink-50 font-bold text-sm text-pink-600 transition"><i class="fa-brands fa-instagram"></i> InstaSave</a>
+                <a href="https://QRSAVE-URL.vercel.app" class="flex items-center gap-3 px-4 py-3 hover:bg-violet-50 font-bold text-sm text-violet-600 transition"><i class="fa-solid fa-qrcode"></i> QRSave</a>
+                <a href="https://REMOVEBG-URL.vercel.app" class="flex items-center gap-3 px-4 py-3 hover:bg-emerald-50 font-bold text-sm text-emerald-600 transition"><i class="fa-solid fa-scissors"></i> RemoveBG</a>
+                <a href="https://TTS-URL.vercel.app" class="flex items-center gap-3 px-4 py-3 hover:bg-sky-50 font-bold text-sm text-sky-600 transition"><i class="fa-solid fa-volume-high"></i> TextToSpeech</a>
+                <a href="https://PDFTOOLS-URL.vercel.app" class="flex items-center gap-3 px-4 py-3 hover:bg-red-50 font-bold text-sm text-red-600 transition"><i class="fa-solid fa-file-pdf"></i> PDFTools</a>
+                <a href="https://FBSAVE-URL.vercel.app" class="flex items-center gap-3 px-4 py-3 hover:bg-blue-50 font-bold text-sm text-blue-600 transition"><i class="fa-brands fa-facebook"></i> FBSave</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="flex justify-center py-2 bg-gray-50 border-b overflow-x-hidden">
+        <script>atOptions = {'key':'ce4de3b239db7200d9d69752a34d94ed','format':'iframe','height':90,'width':728,'params':{}};</script>
+        <script src="https://www.highperformanceformat.com/ce4de3b239db7200d9d69752a34d94ed/invoke.js"></script>
+    </div>
+
+    <section class="hero-section">
+        <h1 class="text-3xl md:text-5xl font-extrabold mb-4 tracking-tight">Facebook Video Downloader</h1>
+        <p class="text-blue-100 text-lg">Download video Facebook kualitas HD & SD secara gratis</p>
+    </section>
+
+    <div class="px-4 mt-0">
+        <form id="download-form" method="POST" action="/" class="input-box">
+            <input type="url" name="url" placeholder="Tempel link video Facebook di sini..." required value="{{ request.form.get('url', '') }}">
+            <button type="submit" class="btn-download hidden md:block text-sm uppercase">Proses</button>
+        </form>
+        <button type="submit" form="download-form" class="w-full max-w-2xl mx-auto block mt-4 btn-download md:hidden py-4 rounded-xl">PROSES</button>
+    </div>
+
+    {% if error %}
+    <div class="max-w-2xl mx-auto mt-6 px-4">
+        <div class="bg-red-50 border border-red-200 text-red-700 px-6 py-4 rounded-2xl flex items-center gap-3">
+            <i class="fa-solid fa-circle-exclamation text-red-500 text-xl"></i>
+            <p class="font-bold italic">{{ error }}</p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if result %}
+    <section id="download-result" class="max-w-3xl mx-auto px-4 py-10">
+        <div class="bg-white p-8 rounded-[2rem] border-2 border-blue-50 shadow-xl">
+            <div class="flex flex-col md:flex-row gap-6 items-start mb-8">
+                {% if result.thumbnail %}
+                <img src="{{ result.thumbnail }}" class="w-full md:w-56 rounded-2xl shadow object-cover" alt="Thumbnail" onerror="this.style.display='none'">
+                {% endif %}
+                <div class="flex-1">
+                    <h3 class="text-xl font-extrabold text-gray-900 mb-4">{{ result.title or 'Facebook Video' }}</h3>
+                    <div class="space-y-3">
+                        {% if result.hd %}
+                        <button onclick="startAdProcess('{{ result.hd }}', 'hd')"
+                            class="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-2xl font-black text-lg transition shadow-lg flex items-center justify-center gap-3">
+                            <i class="fa-solid fa-cloud-arrow-down"></i> Download HD
+                        </button>
+                        {% endif %}
+                        {% if result.sd %}
+                        <button onclick="startAdProcess('{{ result.sd }}', 'sd')"
+                            class="w-full bg-white hover:bg-blue-50 text-blue-600 border-2 border-blue-600 py-4 rounded-2xl font-black text-lg transition flex items-center justify-center gap-3">
+                            <i class="fa-solid fa-cloud-arrow-down"></i> Download SD
+                        </button>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            <button onclick="location.href='/'" class="text-blue-500 font-bold text-sm hover:underline italic block text-center">← Download video lain</button>
+        </div>
+    </section>
+    {% endif %}
+
+    <article class="max-w-4xl mx-auto px-6 py-20">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-black text-gray-900 mb-4">Apa itu FBSave?</h2>
+            <p class="text-gray-600 leading-relaxed max-w-2xl mx-auto">FBSave adalah tools gratis untuk download video Facebook dalam kualitas HD dan SD. Tanpa aplikasi, tanpa login, langsung dari browser kamu.</p>
+        </div>
+        <div class="grid md:grid-cols-2 gap-12 mb-20">
+            <div>
+                <h2 class="text-3xl font-black text-gray-900 mb-6">Cara Download Video Facebook?</h2>
+                <ul class="space-y-4">
+                    <li class="flex gap-4"><span class="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shrink-0">1</span><p class="text-gray-600"><strong>Salin Link:</strong> Buka Facebook, klik video yang ingin diunduh, klik titik tiga → "Salin Link".</p></li>
+                    <li class="flex gap-4"><span class="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shrink-0">2</span><p class="text-gray-600"><strong>Tempel Link:</strong> Kembali ke FBSave, tempelkan link ke kolom input di atas lalu klik Proses.</p></li>
+                    <li class="flex gap-4"><span class="bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold shrink-0">3</span><p class="text-gray-600"><strong>Download:</strong> Pilih kualitas HD atau SD, lalu simpan video ke perangkat kamu.</p></li>
+                </ul>
+            </div>
+            <div class="bg-blue-50 p-8 rounded-[2rem] border border-blue-100">
+                <h4 class="font-black text-blue-900 text-xl mb-4">Fitur Utama FBSave:</h4>
+                <ul class="space-y-3 text-gray-700">
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Download kualitas HD & SD</li>
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Mendukung video & Reels Facebook</li>
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Gratis tanpa batas unduhan</li>
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Tidak perlu login/daftar</li>
+                    <li><i class="fa-solid fa-check text-green-500 mr-2"></i> Mendukung Android, iOS & PC</li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t pt-16">
+            <h2 class="text-center text-3xl font-black text-gray-900 mb-12">Mengapa Memilih Kami?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6"><div class="text-blue-600 text-4xl mb-4"><i class="fa-solid fa-bolt-lightning"></i></div><h5 class="font-bold text-lg mb-2">Kecepatan Tinggi</h5><p class="text-sm text-gray-500">Server kami memproses video Facebook secara instan.</p></div>
+                <div class="text-center p-6"><div class="text-blue-600 text-4xl mb-4"><i class="fa-solid fa-film"></i></div><h5 class="font-bold text-lg mb-2">HD & SD</h5><p class="text-sm text-gray-500">Pilih kualitas sesuai kebutuhan — HD untuk kualitas terbaik, SD untuk ukuran lebih kecil.</p></div>
+                <div class="text-center p-6"><div class="text-blue-600 text-4xl mb-4"><i class="fa-solid fa-mobile-screen-button"></i></div><h5 class="font-bold text-lg mb-2">User Friendly</h5><p class="text-sm text-gray-500">Tampilan bersih dan mudah digunakan di HP maupun PC.</p></div>
+            </div>
+        </div>
+    </article>
+
+    <div class="max-w-4xl mx-auto px-6 pb-10">
+        <script async="async" data-cfasync="false" src="https://pl28767224.effectivegatecpm.com/84baf2967a1046cd5dc730690ab9f7c8/invoke.js"></script>
+        <div id="container-84baf2967a1046cd5dc730690ab9f7c8"></div>
+    </div>
+
+    <footer class="bg-gray-900 py-12 text-center text-white">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-2xl font-black mb-4">FBSave</div>
+            <p class="text-gray-400 text-sm mb-6 uppercase tracking-widest">Facebook Video Downloader Gratis</p>
+            <div class="flex justify-center gap-8 border-t border-gray-800 pt-8">
+                <a href="/privacy" class="text-xs font-bold hover:text-blue-400 uppercase text-gray-400">Privacy Policy</a>
+                <a href="/contact" class="text-xs font-bold hover:text-blue-400 uppercase text-gray-400">Contact</a>
+            </div>
+            <p class="text-gray-600 text-xs mt-4">© 2026 FBSave All right reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        let videoUrl = "";
+        let videoQuality = "sd";
+
+        window.onload = function() {
+            {% if result %}
+            document.getElementById('download-result').scrollIntoView({ behavior: 'smooth', block: 'center' });
+            {% endif %}
+        };
+
+        function startAdProcess(url, quality) {
+            videoUrl = url;
+            videoQuality = quality;
+            document.getElementById('ad-overlay').style.display = 'flex';
+            let c = 5;
+            const t = setInterval(() => {
+                c--;
+                const btn = document.getElementById('close-ad');
+                btn.innerText = `Tutup (${c}s)`;
+                if (c <= 0) {
+                    clearInterval(t);
+                    btn.innerText = "SIMPAN SEKARANG";
+                    btn.disabled = false;
+                    btn.className = "w-full mt-4 bg-blue-600 text-white font-black py-4 rounded-2xl shadow-xl";
+                }
+            }, 1000);
+        }
+
+        document.getElementById('close-ad').onclick = () => {
+            document.getElementById('ad-overlay').style.display = 'none';
+            proxyDownload(videoUrl, videoQuality);
+        };
+
+        function proxyDownload(u, q) {
+            const a = document.createElement('a');
+            a.href = '/download?url=' + encodeURIComponent(u) + '&q=' + q;
+            a.download = '';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        }
+
+        function toggleMenu() {
+            document.getElementById('dropdown-menu').classList.toggle('hidden');
+        }
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.relative')) {
+                document.getElementById('dropdown-menu').classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
